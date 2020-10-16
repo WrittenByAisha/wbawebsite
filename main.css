@@ -6,8 +6,6 @@ body {
 .outerbox {
     display: flex;
     flex-direction: column;
-    width: 200vw;
-    margin: 5 20px;
 }
 
 .masthead {
@@ -30,6 +28,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-right: 11%;
 }
 
 h1 {
@@ -39,22 +38,29 @@ h1 {
 .welcometext {
     display: flex;
     text-align: center;
+    margin-right: 20%;
+    margin-left: 25%;
 }
 
 .metext {
     display: flex;
     text-align: center;
+    margin-right: 20%;
+    margin-left: 25%;
 }
 
 .writingtext {
     display: flex;
     text-align: center;
+    margin-right: 20%;
+    margin-left: 25%;
 }
 
 .rabbithole {
     display: flex;
-    justify-content: space-around;
     text-align: center;
+    justify-content: center;
+    justify-content: space-evenly;
 }
 
 #paper {
@@ -65,4 +71,7 @@ h1 {
 
 #memedi {
     display: flex;
+    justify-content: center;
+    width: 250px;
+    margin-left: 42%;
 }
