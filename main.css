@@ -1,0 +1,68 @@
+body { 
+    background-color: cornsilk;
+    font-size: 16px;
+    margin: 0;
+}
+.outerbox {
+    display: flex;
+    flex-direction: column;
+    width: 200vw;
+    margin: 5 20px;
+}
+
+.masthead {
+    display: flex;
+    justify-content: flex-end;
+    margin: 5 20px;
+    height: 100px;
+}
+#ashlogoimg {
+    width: 222px;
+}
+
+.ashlogo {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1 {
+    text-align: center;
+}
+
+.welcometext {
+    display: flex;
+    text-align: center;
+}
+
+.metext {
+    display: flex;
+    text-align: center;
+}
+
+.writingtext {
+    display: flex;
+    text-align: center;
+}
+
+.rabbithole {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#paper {
+    display: flex;
+    justify-content: center;
+    width: 250px
+}
+
+#memedi {
+    display: flex;
+}
